@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <de.moliso.shelxle.TwoDScrollView
+        android:id="@+id/twoDScrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="100"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <LinearLayout
+            android:layout_width="1000dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:scrollbars="horizontal|vertical" >
+
+            <de.moliso.shelxle.TextEdit
+                android:id="@+id/editText1"
+                android:background="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="100"
+                android:enabled="true"
+                android:fontFamily="monospace"
+                android:gravity="top|left|start"
+                android:inputType="textMultiLine|textNoSuggestions"
+                android:scrollHorizontally="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbarStyle="insideInset"
+                android:scrollbars="horizontal|vertical"
+                android:text="@string/test"
+                android:textSize="18sp" >
+
+                <requestFocus />
+            </de.moliso.shelxle.TextEdit>
+
+        </LinearLayout>
+    </de.moliso.shelxle.TwoDScrollView>
+
+</LinearLayout>

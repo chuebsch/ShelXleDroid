@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/openMenu2"
+        android:alphabeticShortcut="o"
+        android:icon="@drawable/open"
+        android:numericShortcut="1"
+        android:showAsAction="ifRoom"
+        android:title="@string/OpenResFile">
+    </item>
+    <item
+        android:id="@+id/refineMenu2"
+        android:alphabeticShortcut="r"
+        android:icon="@drawable/refine"
+        android:numericShortcut="3"
+        android:showAsAction="ifRoom"
+        android:title="@string/RefineXL">
+    </item>
+    <item
+        android:id="@+id/backMenu2"
+        android:alphabeticShortcut="q"
+        android:icon="@drawable/moveleft"
+        android:numericShortcut="4"
+        android:showAsAction="ifRoom"
+        android:title="@string/backToView">
+    </item>
+    <item
+        android:id="@+id/lstMenu2"
+        android:alphabeticShortcut="l"
+        android:numericShortcut="22"
+        android:title="@string/lstload">
+    </item>
+    <item
+        android:id="@+id/high2"
+        android:checkable="true"
+        android:checked="true"
+        android:title="@string/highli"
+        android:titleCondensed="Highlighting">
+    </item>
+    <item
+        android:id="@+id/SHELX"
+        android:title="SHELX">
+        <menu>
+            <item
+                android:id="@+id/updUnit"
+                android:title="update UNIT">
+            </item>
+            <item
+                android:id="@+id/updWght"
+                android:title="update WGHT">
+            </item>
+        </menu>
+    </item>
+
+</menu>

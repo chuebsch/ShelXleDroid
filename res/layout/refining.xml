@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/loadres"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="@string/loadres" />
+        
+        <Button
+            android:id="@+id/stopref"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="@string/stop" />
+        
+        <Button
+            android:id="@+id/discard"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:text="@string/discard" />
+    </LinearLayout>
+
+    <de.moliso.shelxle.TwoDScrollView
+        android:id="@+id/twoDScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.90"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <LinearLayout
+            android:layout_width="954dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/refine"
+                android:layout_width="954dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:ellipsize="none"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="monospace"
+                android:gravity="bottom"
+                android:padding="2dp"
+                android:scrollHorizontally="true"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical|horizontal"
+                android:text="@string/test"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+
+                <requestFocus />
+            </TextView>
+
+        </LinearLayout> 
+    </de.moliso.shelxle.TwoDScrollView>
+
+</LinearLayout>
+ <!--  android:inputType="textNoSuggestions"-->
+       

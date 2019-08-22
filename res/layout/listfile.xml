@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <de.moliso.shelxle.TwoDScrollView
+        android:id="@+id/twoDScrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.90"
+        android:scrollbarAlwaysDrawVerticalTrack="true" >
+
+        <LinearLayout
+            android:layout_width="954dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lstfile"
+                android:layout_width="954dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:ellipsize="none"
+                android:ems="10"
+                android:enabled="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:fontFamily="monospace"
+                android:gravity="bottom"
+                android:padding="2dp"
+                android:scrollHorizontally="true"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical|horizontal"
+                android:text="@string/test"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" >
+
+                <requestFocus />
+            </TextView>
+
+        </LinearLayout> 
+    </de.moliso.shelxle.TwoDScrollView>
+
+</LinearLayout>
+ <!--  android:inputType="textNoSuggestions"-->
+       
