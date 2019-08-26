@@ -13,7 +13,7 @@ HFIX adds some hydrogen atoms.
 This App is intended for users that are familiar with single-crystal-X-ray-structure refinement with SHELXL.
 
 ## Demo Video
-![Video](https://youtu.be/aN79v0Tz9wU)
+[![Watch the video](https://img.youtube.com/vi/aN79v0Tz9wU/hqdefault.jpg)](https://youtu.be/aN79v0Tz9wU)
 
 ## How to use
 ![1](Screenshots/1.png)
